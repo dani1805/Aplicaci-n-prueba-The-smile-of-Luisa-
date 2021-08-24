@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#91DCE6"
+    tools:context=".FragmentHome" >
+
+    <TextView
+        android:id="@+id/tvInit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:padding="12dp"
+        android:text='"La sonrisa de Luisa" nace de la ilusión de una familia de La Carolina (Jaén), dedicada a la confección que decide revertir la idea de la moda usándola en un accesorio bastante utilizado en este momento como son las mascarillas. Plasmamos un toque original y diferente, nuestros modelos están hechos en diferentes tamaños y para todas las edades, con materiales adaptados y certificados para garantizar seguridad y estética.Huyendo un poco de la monotonía creamos esta línea buscando poner una nota de color. En nuestra colección seguro que hay una para ti. Ven y descúbrelo'
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/linearLocation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:orientation="vertical"
+        android:padding="5dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvInit">
+
+        <ImageView
+            android:id="@+id/imgMap"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:layout_marginTop="50dp"
+            android:src="@android:drawable/ic_menu_mapmode" />
+
+        <TextView
+            android:id="@+id/tvLocation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Plaza Campomanes Nº5 Bloque 1 Bajo B"
+            android:textColor="#FF9761"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

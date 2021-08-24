@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/Home"
+        android:icon="@drawable/ic_baseline_home_24"
+        android:title="@string/Inicio" />
+
+    <item
+        android:id="@+id/Masks"
+        android:icon="@drawable/ic_baseline_masks_24"
+        android:title="@string/Mascarillas" />
+
+    <item
+        android:id="@+id/Contact"
+        android:icon="@drawable/ic_baseline_contacts_24"
+        android:title="@string/Contacto" />
+
+
+
+
+</menu>

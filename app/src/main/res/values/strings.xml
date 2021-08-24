@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">TheSmileOfLuisa</string>
+    <string name="title_home">home</string>
+    <string name="title_car">masks</string>
+    <string name="title_contact">contacts</string>
+    <string name="titleMasks">masks</string>
+    <string name="title_masks">title_masks</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="Mascarillas">Mascarillas</string>
+    <string name="Contacto">Contacto</string>
+    <string name="Inicio">Inicio</string>
+    <string name="Carrito" />
+</resources>
